@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/activity_login.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/edit_employee_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/item_boltsale_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/item_oil_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/item_payment_recycler.xml" value="0.3148148148148148" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/item_welding_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/layout/register_employee.xml" value="0.5" />
+        <entry key="..\:/Users/panta/IdeaProjects/Baraka/app/src/main/res/xml/file_path.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

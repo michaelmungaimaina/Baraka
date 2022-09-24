@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/selector_recyclerview"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/id"
+            app:layout_constraintEnd_toStartOf="@+id/category"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textOilId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="Name: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#03334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/category"
+            app:layout_constraintEnd_toStartOf="@+id/quantity"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/id">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="MAINA MICHAEL MUNGAI"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="55dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/quantity"
+            app:layout_constraintEnd_toStartOf="@+id/bp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/category">
+
+            <TextView
+                android:id="@+id/textOilQnty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text=" Station:  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quantity">
+
+            <TextView
+                android:id="@+id/textStation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:gravity="start"
+                android:text="IRIGA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="81dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/idd"
+            app:layout_constraintEnd_toStartOf="@+id/categor"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textOilI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="Designation: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#03334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/categor"
+            app:layout_constraintEnd_toStartOf="@+id/quantit"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/idd">
+
+            <TextView
+                android:id="@+id/textDesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="PUMP ATTENDANT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/quantit"
+            app:layout_constraintEnd_toStartOf="@+id/bpp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/categor">
+
+            <TextView
+                android:id="@+id/textOilQnt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text=" Gross Salary:  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="75dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bpp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quantit">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                app:cardBackgroundColor="#88DC7A"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/textGross"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:gravity="start"
+                    android:text="15000.00"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="81dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/iddd"
+            app:layout_constraintEnd_toStartOf="@+id/catego"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textOil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="Bank Name: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#03334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/catego"
+            app:layout_constraintEnd_toStartOf="@+id/quanti"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iddd">
+
+            <TextView
+                android:id="@+id/texBankName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="KCB"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/quanti"
+            app:layout_constraintEnd_toStartOf="@+id/bppp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/catego">
+
+            <TextView
+                android:id="@+id/textOilQn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text=" Acc. Number:  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bppp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quanti">
+
+                <TextView
+                    android:id="@+id/textAccountNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:gravity="start"
+                    android:text="12342500038"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            app:cardBackgroundColor="#02334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/idddd"
+            app:layout_constraintEnd_toStartOf="@+id/categ"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textOi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="Advance: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#03334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/categ"
+            app:layout_constraintEnd_toStartOf="@+id/quant"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/idddd">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#CD8293"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:id="@+id/textAdvance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:lines="1"
+                android:text="8000.00"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#290707"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/quant"
+            app:layout_constraintEnd_toStartOf="@+id/bpppp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/categ">
+
+            <TextView
+                android:id="@+id/textOilQ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text=" Debt:  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bpppp"
+            app:layout_constraintEnd_toStartOf="@id/quan"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quant">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#CD8293"
+            app:cardCornerRadius="5dp">
+                <TextView
+                    android:id="@+id/textDebt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:gravity="start"
+                    android:text="2000.00"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            app:cardBackgroundColor="#00334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/quan"
+            app:layout_constraintEnd_toStartOf="@+id/bppppp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bpppp">
+
+            <TextView
+                android:id="@+id/textO"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text=" NHIF:  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#01058C"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#05334DF1"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="0dp"
+            android:id="@+id/bppppp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/quan">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#CD8293"
+            app:cardCornerRadius="5dp">
+                <TextView
+                    android:id="@+id/textNhif"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="2dp"
+                    android:gravity="start"
+                    android:text="500.00"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#290707"
+                    android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="65dp"
+        android:layout_height="15dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="1dp"
+        app:cardBackgroundColor="#02334DF1"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:id="@+id/iddddd"
+        app:layout_constraintEnd_toStartOf="@+id/sal"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/texti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="start|center_vertical"
+            android:lines="1"
+            android:text="Net Salary: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#01058C"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="1dp"
+        app:cardBackgroundColor="#02334DF1"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:id="@+id/sal"
+        app:layout_constraintEnd_toStartOf="@+id/pdf"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iddddd">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#91C88D"
+            app:cardCornerRadius="5dp">
+        <TextView
+            android:id="@+id/txtNetSalary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="start|center_vertical"
+            android:lines="1"
+            android:text="3000.00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#29010A"
+            android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="1dp"
+        app:cardBackgroundColor="#02334DF1"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:id="@+id/pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="#062301"
+            app:cardCornerRadius="5dp">
+        <TextView
+            android:id="@+id/txtPdfReport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="start|center_vertical"
+            android:lines="1"
+            android:text="  Policy Document  "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
